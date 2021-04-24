@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario Hackaton3</h1>
+
+    <form action="">
+        <h2>Nombre</h2>
+            <input type="text" id="Nombre" placeholder="Registra Nombre" required pattern="[A-Za-z]+"  >
+        <h2>Apellido</h2>
+            <input type="text" id="Apellido" placeholder="Registra Apellido" required pattern="[A-Za-z]+">
+        <h2>Edad</h2>
+            <input type="number" min="18" max="80" placeholder="Edad">
+        <h2>Sexo</h2>
+            <label>Masculino
+                <Input type="radio" name="sexo" value="Masculino"></Input>
+            </label>
+            <label >Femenino
+                <input type="radio" name="sexo" value="Femenino">
+            </label>
+        <h2>Documento de Identificacion</h2>
+            <input type="text" placeholder="DNI" required minlength="8" pattern="[A-Za-z]+">
+        <h2>Email</h2>
+            <input type="email" required>
+        <summit>Enviar</summit>    
+    </form>
+    
+</body>
+</html>
