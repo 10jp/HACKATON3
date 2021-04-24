@@ -10,14 +10,13 @@
     <h1>Formulario Hackaton3</h1>
 
     <form action="">
-
         <label>Nombre</label>
             <input type="text" id="Nombre" placeholder="Registra Nombre" required pattern="[A-Za-z]+"  >
 
             <br>
         <label>Apellido</label>
             <input type="text" id="Apellido" placeholder="Registra Apellido" required pattern="[A-Za-z]+">
-
+            
             <br>
         <label>Edad</label>
             <input type="number" min="18" max="80" placeholder="Edad">
@@ -27,14 +26,18 @@
             <label>Masculino</label>
                 <Input type="radio" name="sexo" value="Masculino"></Input>            
             <label >Femenino</label>
-                <input type="radio" name="sexo" value="Femenino">            
+                <input type="radio" name="sexo" value="Femenino"> 
+            
+            <br>
         <label>Documento de Identificacion</label>
             <input type="text" placeholder="DNI" required minlength="8" pattern="[A-Za-z]+">
+
+            <br>
         <label>Email</label>
             <input type="email" required>
+
             <br>
         <button type="submit">Enviar</button> 
-    </form>
-    
+    </form>    
 </body>
 </html>
